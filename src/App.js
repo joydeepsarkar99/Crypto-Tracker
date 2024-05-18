@@ -71,7 +71,7 @@ const App = () => {
     }, []);
 
     if (apiStatus === "init" || apiStatus === "pending") {
-        <div className="loader">Loading ...</div>
+        return <div className="loader">Loading ...</div>
     }
     else if (apiStatus === "error") {
         return <div className="retry-btn">
