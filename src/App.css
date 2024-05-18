@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #31363F;
+    padding: 2.5rem 4rem;
+}
+
+.loader {
+    background-color: #31363F;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.retry-btn {
+    width: 50vw;
+    margin-top: 50px;
+    margin-inline: auto;
+    text-align: center;
+
+    button {
+        width: 25vw;
+        font-size: 18px;
+        padding: 7px 35px;
+        color: white;
+        background-color: #1F1F1F;
+        border: none;
+        border: 2px solid #9E9E9E;
+        cursor: pointer;
+    }
+
+    button:hover {
+        opacity: 0.85;
+    }
+}
+
+.input-container {
+    padding: 1rem;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.input-container input {
+    flex: 1;
+    padding-left: 0.5rem;
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+.input-container button {
+    width: 12rem;
+    cursor: pointer;
+}
+
+.input-container input,
+button {
+    border: 1px solid lightgray;
+    height: 3rem;
+    background-color: #222831;
+    color: white;
+}
+
+table {
+    background-color: #222831;
+    border-collapse: collapse;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+    text-align: right;
+    color: white;
+}
+
+tr {
+    height: 4rem;
+}
+
+.img {
+    width: 4rem;
+}
+
+.img>img {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.name,
+.img {
+    text-align: left;
+}
+
+.name,
+.symbol {
+    width: 10rem;
+}
+
+.current_price {
+    width: 14rem;
+}
+
+.total_volume {
+    width: 16rem;
+}
+
+.percentage {
+    width: 12rem;
+}
+
+#green {
+    color: #AAFF00;
+}
+
+#red {
+    color: red;
+}
